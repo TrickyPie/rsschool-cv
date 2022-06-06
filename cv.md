@@ -32,3 +32,27 @@ I am a high organized and self-motivated person, who is interested in frontend d
 * Adobe Photoshop *(Basic)*
 
 ---
+
+### **Code example:**
+
+```
+let fahrenheit = prompt ('Какая температура воспламенения бумаги по Фаренгейту?', '');
+if (fahrenheit == 451) {
+alert( 'Ты молодец, это правильный ответ!' );
+} else {
+  alert( 'Ты ошибся, но не стоит расстраиваться. Прочитай «451 градус по Фаренгейту» Рея Бредбери — она отличная!' ); 
+}
+```
+
+---
+
+### **Courses:**
+* HTML and CSS on the training simulator [**HTML Academy**](https://htmlacademy.ru/) *(completed)*
+* JavaScript on [**learn.javascript.ru**](https://learn.javascript.ru/) *(in progress)*
+* [**RS Schools Course**](https://rs.school/) «JavaScript/Front-end. Stage 0» *(in progress)*
+
+---
+
+### **Languages:**
+* Russian - Native
+* English – Pre-Intermediate *(Intermediate in progress)*
