@@ -1,6 +1,10 @@
 ## **Anastasiya Klimova**
 
 #### Junior Frontend Developer
+![Фото](https://sun9-west.userapi.com/sun9-65/s/v1/if2/dAsDfp6IZlWHeHo-TrGFJREGSO9Dg_geR1NVHP89-3UFTylTSnXdjo9txQyCH6dwZbFFS87tLivFlFMDaCTyFrmi.jpg?size=182x270&quality=95&type=album)
+
+
+
 ---
 
 ### **Contact information:**
