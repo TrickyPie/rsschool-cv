@@ -1,16 +1,206 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
 <link href="./css/style.css" rel="stylesheet">
 <title>CV</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="keywords" content="CV, resume">
 <meta name="description" content="Anastasiya Klimova CV">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
 </head>
 <body>
-	<main>
-        <p>Anastasiya Klimova</p>
-        <p>Junior frontend developer</p>
-	</main>
+  <div class="center-wrapper">
+    <div class="main-body">
+      <header>
+        <nav class="header-nav">
+          <ul class="header-main-nav">
+            <li><a href="#education">Education &amp; Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact information</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      <div class="highlight">
+        <h1>Anastasiya <span class="last-name">Klimova</span></h1>
+        <h3>Junior frontend developer</h3>
+        <div class="wrapper-background">
+          <div class="background-element"></div>
+        </div>
+        <img class="cv-photo" src="./img/7.jpg" alt="picture of a potential candidate" width="250">
+      </div>
+      <section class="about-me-info">
+        <h2 class="block-highlight">About Me</h2>
+        <p>I am a high organized and self-motivated person, who is interested in frontend development. A lot of my skills in this sphere were acquired by self-learning. I like working in a team, thanks to communication skills.</p>
+      </section>
+      <div class="flex-container main-block">
+        <section class="education-info" id="education">
+          <h2 class="block-highlight">Education</h2>
+          <ul class="education-list">
+            <li class="education-place">HTML Academy</li>
+            <li class="education-place">Learnjavascript.ru</li>
+            <li class="education-place">RS Schools</li>
+            <li>
+              <p class="education-place">Moscow City University</p>
+              <p class="degree-name">(Teaching, specialist)</p>
+            </li>
+            <li>
+              <p class="education-place">Moscow State University of Design and Technology</p>
+              <p class="degree-name">(Public Relations, master)</p>
+            </li>
+          </ul>
+        </section>
+        <section class="experience-info flexbox-block">
+          <h2 class="block-highlight">Experience</h2>
+          <ul class="experience-list">
+            <li>
+              <p class="job-name">SMM specialist &amp; blogger</p>
+              <p class="year">2020 - to date</p>
+            </li>
+            <li>
+              <p class="job-name">PR manager</p>
+              <p class="year">2015–2020</p>
+            </li>
+            <li>
+              <p class="job-name">Foreign language teacher</p>
+              <p class="year">2011–2014</p>
+            </li>
+          </ul>
+        </section>
+        <section class="skills-info" id="skills">
+          <h2 class="block-highlight">Skills</h2>
+          <ul class="skills">
+            <li>
+              <p>HTML5, CSS3</p>
+              <div class="container">
+                <div class="html-skill skill"></div>
+              </div>
+            </li>
+            <li>
+              <p>JavaScript</p>
+              <div class="container">
+                <div class="js-skill skill"></div>
+              </div>
+            </li>
+            <li>
+              <p>Git, GitHub</p>
+              <div class="container">
+                <div class="git-skill skill"></div>
+              </div>
+            </li>
+            <li>
+              <p>VS Code</p>
+              <div class="container">
+                <div class="vs-skill skill"></div>
+              </div>
+            </li>
+            <li>
+              <p>Adobe Photoshop</p>
+              <div class="container">
+                <div class="ap-skill skill"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="hobby-info flexbox-block">
+          <h2 class="block-highlight">Hobbies</h2>
+          <ul class="hobby-list">
+            <li class="hobby-logo gaming-logo"></li>
+            <li class="hobby">gaming</li>
+            <li class="hobby-logo hiking-logo"></li>
+            <li class="hobby">hiking</li>
+            <li class="hobby-logo reading-logo"></li>
+            <li class="hobby">reading</li>
+            <li class="hobby-logo blogging-logo"></li>
+            <li class="hobby">blogging</li>
+            <li class="hobby-logo plant-logo"></li>
+            <li class="hobby">plant growing</li>
+            <li class="hobby-logo lettering-logo"></li>
+            <li class="hobby">lettering</li>
+          </ul>
+        </section>
+        <section class="language-info flexbox-block">
+          <h2 class="block-highlight">Languges</h2>
+          <ul class="language-list">
+            <li class="language-text">
+              <p>Russian</p>
+              <ul class="language-rus">
+                <li class="full-skills"></li>
+                <li class="full-skills"></li>
+                <li class="full-skills"></li>
+                <li class="full-skills"></li>
+                <li class="full-skills"></li>
+              </ul>
+            </li>
+            <li class="language-text">
+              <p>English</p>
+              <ul class="language-eng">
+                <li class="full-skills"></li>
+                <li class="full-skills"></li>
+                <li class="full-skills"></li>
+                <li class="zero-skills"></li>
+                <li class="zero-skills"></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div>
+        <section class="project-container" id="projects">
+          <h2 class="block-highlight">Projects</h2>
+          <div class="flex-container projects-info">
+            <div class="projects-ex">
+              <a href="https://github.com/TrickyPie/rsschool-cv" target="_blank">
+                <div class="project-illustration cv-illustration"></div>
+                <p>CV layout</p>
+              </a>
+            </div>
+            <div class="projects-ex">
+              <a href="#" target="_blank">
+              <div class="project-illustration illustration_1"></div>
+              <p>Is under construction</p>
+              </a>
+            </div>
+          </div>
+        </section>
+        <div>
+          <section class="code-container">
+            <h2 class="block-highlight">Code example:</h2>
+            <pre>let fahrenheit = prompt ('Какая температура воспламенения бумаги в °F?', '');
+            if (fahrenheit == 451) {
+            alert( 'Ты молодец, это правильный ответ!' );
+            } else {
+            alert( 'Ты ошибся, но не стоит расстраиваться!' );
+            }</pre>
+          </section>
+        </div>
+      </div>
+      <section class="contact-info" id="contacts">
+        <h2 class="block-highlight">Contact information</h2>
+        <ul>
+          <li><b>Location:</b> Moscow</li>
+          <li><b>Phone:</b> +7-985-434-27-74</li>
+          <li><b>E-mail:</b> klimova.pr@gmail.com</li>
+          <li><b>Telegram:</b> @purfect_gamer</li>
+          <li><b>Discord:</b> TrickyPie#6605</li>
+          <li><a class="contact-link" href="https://github.com/TrickyPie"><b>GitHub:</b> TrickyPie</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <ul class="footer-menu">
+          <li><a href="https://github.com/TrickyPie" target="_blank"><img src="./img/github.png" alt="github logo" height="50"></a></li>
+          <li class="rsschool-logo"><a href="https://rs.school/js/" target="_blank"><img src="./img/rs_school_logo.svg" alt="github logo" height="50"></a></li>
+          <li class="site-year">2022</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</div>
 </body>
 </html>
