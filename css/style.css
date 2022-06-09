@@ -1,0 +1,359 @@
+/*Обнуляющие стили*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 16px;
+}
+
+/*Стили*/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.center-wrapper {
+  width:900px;
+  margin:0 auto;
+}
+
+.main-body {
+  margin:60px 90px;
+}
+
+ul {
+  list-style:none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-main-nav li {
+  margin:0 20px;
+  display:inline-block;
+}
+
+.header-main-nav li a {
+  display:block;
+  font-weight:200;
+  color:black;
+}
+
+.highlight {
+  position:relative;
+  max-width:370px;
+  font-family: 'Poppins', sans-serif;
+  padding:20px;
+}
+
+.highlight h1 {
+  margin-top:40px;
+  font-size: 47px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #363636;
+}
+
+.highlight span {
+  color: #f1cb59;
+}
+
+.highlight h3 {
+  padding:15px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing:1px;
+}
+
+.background-element {
+  position:absolute;
+  margin-top:-160px;
+  margin-left:420px;
+  width:330px;
+  height:330px;
+  background: url("../img/ellipse_1.png") no-repeat;
+  background-size: contain;
+}
+
+.cv-photo {
+  position:absolute;
+  margin-top:-150px;
+  margin-left:400px;
+  border-radius: 50%;
+}
+
+.about-me-info {
+  padding: 0 20px 60px 20px;
+  max-width:390px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.block-highlight {
+  padding-bottom:40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: #f1cb59;
+}
+
+.flex-container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  padding: 40px 40px;
+}
+
+.flex-container.main-block {
+  background-color:#363636;
+  border-radius: 50px;
+  color:white;
+}
+
+.education-info,
+.experience-info,
+.skills-info,
+.language-info,
+.hobby-info {
+  max-width:35%;
+  margin:30px 40px 40px 50px;
+}
+
+.education-list li,
+.experience-info li {
+  font-size: 18px;
+}
+
+.education-list li,
+.experience-list li,
+.language-list li {
+  padding-bottom:20px;
+}
+
+.education-place,
+.job-name,
+.language-text,
+.hobby {
+  font-weight: 400;
+  color: #dfdddd;
+}
+
+.degree-name {
+  font-weight: 300;
+  color: #707070;
+}
+.experience-info {
+  max-width:40%;
+}
+.year {
+  font-weight: 300;
+  color: #707070;
+}
+
+.skills-info {
+  min-width:500px;
+}
+
+.skills li {
+  width:100%;
+}
+
+.skills li p {
+  padding-top:15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #dfdddd;
+}
+
+.container {
+  margin:15px 0;
+  height:20px;
+  border:2px solid #f1cb59;
+  border-radius:20px;
+}
+
+.html-skill,
+.js-skill,
+.git-skill,
+.vs-skill,
+.ap-skill {
+  margin-left:-2px;
+  height:22px;
+  background-color:#f1cb59;
+  border-radius:20px 0 0 20px;
+}
+
+.html-skill {
+  width:70%;
+}
+
+.js-skill {
+  width:10%;
+}
+
+.git-skill {
+  width:50%;
+}
+
+.vs-skill {
+  width:80%;
+}
+
+.ap-skill {
+  width:40%;
+}
+
+.hobby-list {
+  display:grid;
+  grid-template-columns: 47px 120px  47px 120px;
+  grid-template-rows:40px;
+  grid-gap:20px 5px;
+  align-items: center;
+  grid-template-areas: "hobby-logo hobby hobby-logo hobby"
+                       "hobby-logo hobby hobby-logo hobby"
+                       "hobby-logo hobby hobby-logo hobby";
+}
+
+.gaming-logo {
+  background: url("../img/headphones.png") no-repeat;
+}
+
+.hiking-logo {
+  background: url("../img/mountain.png") no-repeat;
+}
+
+.reading-logo {
+  background: url("../img/book-stack.png") no-repeat;
+}
+
+.blogging-logo {
+  background: url("../img/blog.png") no-repeat;
+}
+
+.plant-logo {
+  background: url("../img/plant.png") no-repeat;
+}
+
+.lettering-logo {
+  background: url("../img/lettering.png") no-repeat;
+}
+
+.gaming-logo,
+.hiking-logo,
+.reading-logo,
+.blogging-logo,
+.plant-logo ,
+.lettering-logo {
+  width:40px;
+  height:40px;
+  background-size: cover;
+}
+
+.language-text p {
+  padding-bottom:20px;
+}
+
+.language-rus,
+.language-eng {
+  display:flex;
+}
+
+.language-rus .full-skills,
+.language-eng .full-skills {
+  margin-right:10px;
+  width:25px;
+  height:25px;
+  background:url("../img/ellipse_yell.png") no-repeat;
+  background-size: contain;
+}
+
+.language-eng .zero-skills {
+  margin-right:10px;
+  width:25px;
+  height:25px;
+  background:url("../img/border_yell.png") no-repeat;
+  background-size: contain;
+}
+
+.project-container h2 {
+  padding-left:20px;
+  padding-top:40px;
+}
+
+.projects-ex a{
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  color:#363636;
+}
+
+.cv-illustration {
+  background:url("../img/5.jpg") no-repeat;
+}
+
+.illustration_1 {
+  background:url("../img/under_constr.jpg") no-repeat;
+}
+
+.cv-illustration,
+.illustration_1 {
+  width:250px;
+  height:250px;
+  margin-bottom:25px;
+  background-size: contain;
+  border-radius:50%;
+  box-shadow: 0 0 10px #707070;
+}
+
+.code-container {
+  margin-bottom:30px;
+  padding:20px;
+  background-color:antiquewhite;
+}
+
+
+.contact-info {
+  padding:20px 20px 40px 20px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #707070;
+}
+.contact-info ul {
+  column-count:2;
+}
+
+.contact-link {
+  color:#707070;
+}
+
+.footer-menu{
+  display:flex;
+  justify-content: space-around;
+  background-color:#f1cb59;
+}
+
+.footer-menu li {
+  padding:20px;
+}
+
+.site-year {
+  font-size: 20px;
+  font-weight: 500;
+  color:#363636;
+}
