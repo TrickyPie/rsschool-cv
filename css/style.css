@@ -341,3 +341,19 @@ a {
 .contact-link {
   color:#707070;
 }
+
+.footer-menu{
+  display:flex;
+  justify-content: space-around;
+  background-color:#f1cb59;
+}
+
+.footer-menu li {
+  padding:20px;
+}
+
+.site-year {
+  font-size: 20px;
+  font-weight: 500;
+  color:#363636;
+}
